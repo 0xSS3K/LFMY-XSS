@@ -1,5 +1,5 @@
 # LFMY-XSS
-LFMXSS Hunter is a semi-automated, interactive Python tool designed for hunting stored Cross-Site Scripting vulnerabilities. It leverages a stealth-configured Selenium WebDriver to crawl websites, manage authenticated sessions via JSON cookies, manual bypass WAF and CAPTCHA challenges through "human-in-the-loop" approach. The tool features a dual-detection mechanism, identifying vulnerabilities by both finding the reflected payload in the HTML source and by detecting successful JavaScript execution via pop-up alerts. Its interactive workflow allows the user to pause and resume the scan, providing full control during a security assessment.
+LFM-XSS is a semi-automated, interactive Python tool designed for hunting stored Cross-Site Scripting vulnerabilities. It leverages a stealth-configured Selenium WebDriver to crawl websites, manage authenticated sessions via JSON cookies, manual bypass WAF and CAPTCHA challenges through "human-in-the-loop" approach. The tool features a dual-detection mechanism, identifying vulnerabilities by both finding the reflected payload in the HTML source and by detecting successful JavaScript execution via pop-up alerts. Its interactive workflow allows the user to pause and resume the scan, providing full control during a security assessment.
 
 ## Installation Guide
 ### Prerequisites
@@ -15,12 +15,12 @@ Before you begin, ensure you have the following installed on your system:
    
 Open your terminal, and run the following command to download the project:
 ```bash
-git clone https://github.com/your_username/LFMXSS-Hunter.git
+git clone https://github.com/0xSS3K/LFMY-XSS
 ```
 
 2. Next, navigate into the project directory:
 ```Bash
-cd LFMXSS-Hunter
+cd LFMY-XSS
 ```
 
 ### Create and Activate a Virtual Environment
